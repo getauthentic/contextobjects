@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+h1, h2 {
+    color: #333;
+    line-height: 1em;
+}
+pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    overflow-x: scroll;
+    max-height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.superprompt {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.future-plans {
+    background-color: #e9f7ef;
+    border: 1px solid #b2d9c7;
+    padding: 20px;
+    margin-top: 40px;
+}
+#content {
+    max-width: 640px;
+    margin: auto;
+}

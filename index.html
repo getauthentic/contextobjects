@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContextObjects.org - Empowering Personalized AI Interactions</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="ContextObjects.org is a non-profit organization dedicated to educating and empowering individuals to create their own Context Objects for more personalized and effective interactions with AI language models (LLMs).">
+    <meta name="keywords" content="Context Objects, AI, language models, personalized interactions, long-term memory, exocortex, LLM, ChatGPT, Claude">
+    <meta name="author" content="Nate Siggard">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="ContextObjects.org - Empowering Personalized AI Interactions">
+    <meta property="og:description" content="ContextObjects.org is a non-profit organization dedicated to educating and empowering individuals to create their own Context Objects for more personalized and effective interactions with AI language models (LLMs).">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://contextobjects.org">
+    <meta property="og:image" content="https://contextobjects.org/assets/images/thumbnail.jpg">
+    <meta property="og:site_name" content="ContextObjects.org">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ContextObjects">
+    <meta name="twitter:title" content="ContextObjects.org - Empowering Personalized AI Interactions">
+    <meta name="twitter:description" content="ContextObjects.org is a non-profit organization dedicated to educating and empowering individuals to create their own Context Objects for more personalized and effective interactions with AI language models (LLMs).">
+    <meta name="twitter:image" content="https://contextobjects.org/assets/images/thumbnail.jpg">
+</head>
+<body>
+  <div id="content">
+    <h1>ContextObjects.org - Empowering Personalized AI Interactions</h1>
+    <p>For more information or to contribute to the project, please visit our GitHub repository at <a href="https://github.com/getauthentic/contextobjects">github.com/getauthentic/contextobjects</a>.</p>
+    <p>Welcome to ContextObjects.org, a non-profit organization dedicated to educating and empowering individuals to create their own Context Objects for more personalized and effective interactions with AI language models (LLMs). Our platform enables users to create and manage both public and private Context Objects, giving them granular control over their data and privacy.</p>
+
+    <h2>What is a Context Object?</h2>
+    <p>A Context Object is a structured representation of information, preferences, and experiences for various entities, such as individuals, companies, organizations, families, and communities. It serves as a long-term memory or exocortex store that can be easily referenced by LLMs to provide more accurate and tailored responses. Context Objects can be either public or private, allowing users to control the visibility and accessibility of their data.</p>
+
+    <h2>Public vs. Private Context Objects</h2>
+    <p>One of the core principles of ContextObjects.org is the distinction between public and private Context Objects. This allows users to maintain control over their data and decide what information they want to share openly and what they prefer to keep private.</p>
+    <ul>
+        <li><strong>Public Context Objects:</strong> These are Context Objects that are openly accessible and can be referenced by anyone. They contain information that the user is comfortable sharing with the public, such as general preferences, interests, or professional background. Public Context Objects can be easily discovered and utilized by various applications and services to provide personalized experiences.</li>
+        <li><strong>Private Context Objects:</strong> These are Context Objects that contain sensitive or personal information that the user wants to keep confidential. Private Context Objects are protected by a specific token or key, which is required to access the data. Users can selectively share their private Context Objects with trusted applications or services, ensuring that their sensitive information remains secure.</li>
+    </ul>
+    <p>By offering both public and private Context Objects, ContextObjects.org empowers users to have granular control over their data and privacy while still benefiting from personalized AI interactions.</p>
+
+    <h2>Why Use Context Objects?</h2>
+    <p>By creating and sharing Context Objects, you enable LLMs to instantly access relevant information about the entity, allowing for more personalized and efficient interactions. This eliminates the need to repeatedly provide background information and ensures that the AI can better understand and assist based on the unique context of the entity. With the ability to create both public and private Context Objects, users can tailor their data sharing according to their comfort level and privacy requirements.</p>
+
+    <h2>Building on Proprietary Concepts</h2>
+    <p>ContextObjects.org builds on the proprietary concepts used by Meta's internal OpenGraph psychographic profiles and OpenAI's long-term memory, but with a crucial difference. While these companies keep their implementations within walled gardens, ContextObjects.org is specifically designed to be open-source and collaborative, with a strong emphasis on user control and privacy through the use of public and private Context Objects.</p>
+    <p>By making context objects accessible and interoperable across different platforms and services while respecting user privacy, we aim to democratize the power of personalized AI interactions and give users greater control over their data. Our open-source approach ensures transparency and allows for community-driven innovation, fostering a more inclusive and empowering ecosystem for everyone.</p>
+
+    <h2>Flexibility of Context Object Format</h2>
+    <p>One of the key advantages of Context Objects is that they do not require a standardized format. Unlike traditional APIs that rely on strictly defined and typed syntax, Context Objects can be fluid and adaptable. LLMs are highly capable of ingesting and making sense of information in various formats, allowing users to express context in a way that feels natural and intuitive to them.</p>
+    <p>This flexibility empowers users to create Context Objects that truly reflect the unique experiences and preferences of the entity without being constrained by rigid formatting requirements. Whether you prefer a structured JSON format or a more free-form narrative style, LLMs can effectively utilize the provided context to enhance interactions.</p>
+
+    <h2>How to Create Context Objects</h2>
+    <p>Our user-friendly tool allows you to easily create both public and private Context Objects for various entities by providing relevant information, preferences, and experiences. When creating a Context Object, you can specify whether it should be public or private. Private Context Objects will be associated with a unique token or key that grants access to the data.</p>
+    <p>Once created, you can include a reference pointer to the public Context Object via a public API on ContextObjects.org in your LLM prompts. For private Context Objects, you'll need to include the specific token or key along with the reference pointer to access the data.</p>
+
+    <h2>Example Context Objects</h2>
+    <h3>Personal Context Object Example</h3>
+    <pre>
+{
+  "name": "Nate Siggard",
+  "age": 39,
+  "location": {
+    "city": "Ventura",
+    "state": "CA",
+    "country": "USA"
+  },
+  "occupation": [
+    "Entrepreneur",
+    "Designer",
+    "Developer",
+    "Engineer",
+    "Information Architect",
+    "Artist"
+  ],
+  "education": {
+    "level": "High School",
+    "type": "Self-taught"
+  },
+  "interests": [
+    "Gardening",
+    "Playing music",
+    "Riding ebikes",
+    "Hiking",
+    "Reading",
+    "Ontological map making"
+  ],
+  "skills": [
+    "Pattern breaking",
+    "Startups",
+    "Leadership"
+  ],
+  "goals": {
+    "shortTerm": [
+      "Provide for my family",
+      "Create, build and establish organizations",
+      "Build a healthy ecosystem and food forest in my garden",
+      "Care for my community"
+    ],
+    "longTerm": [
+      "Help humanity prepare for and transition to a post scarcity timeline by reducing waste through reuse and regeneration",
+      "Increase efficiency of technical systems",
+      "Emotionally and psychologically prepare our psyches for the radical changes required to move away from a scarcity capital-based system to a resource optimized and shared benefits society that rewards honesty, hard work and service to others"
+    ]
+  },
+  "familyStatus": "Married",
+  "children": "2"
+  ],
+  "pets": [
+    {
+      "type": "Dog",
+      "count": 3
+    },
+    {
+      "type": "Cat",
+      "count": 1
+    },
+    {
+      "type": "Koi fish",
+      "count": 2
+    }
+  ],
+  "favorites": {
+    "book": "Tao Te Ching",
+    "movies": [
+      "Inception",
+      "Interstellar",
+      "Anchorman",
+      "Back to the Future"
+    ],
+    "tvShows": [
+      "Bridgerton",
+      "Game of Thrones",
+      "Ancient Aliens"
+    ]
+  },
+  "musicPreferences": [
+    "Drum and Bass",
+    "Reggae",
+    "Dub",
+    "Rock",
+    "Punk",
+    "Pop-punk",
+    "Dubstep",
+    "Bass music"
+  ],
+  "dietaryPreferences": [
+    "No dairy",
+    "No cow",
+    "No pig",
+    "No chicken",
+    "No non-fish animals",
+    "Eggs",
+    "Single ingredient",
+    "Non-processed",
+    "Non-GMO",
+    "Organic when possible"
+  ],
+  "favoriteFoods": [
+    "Vegan Mexican food",
+    "Sushi"
+  ],
+  "allergies": [
+    "Milk",
+    "Cheese",
+    "Dairy"
+  ],
+  "communicationPreferences": {
+    "personal": "Text",
+    "general": "Email"
+  },
+  "languages": [
+    "English",
+    "Spanish (un pocito)"
+  ],
+  "travelExperience": [
+    "Every state in the US",
+    "Canada"
+    "Amsterdam",
+    "Prague",
+    "El Salvador",
+    "Mexico"
+  ],
+  "communityAndProjectWork": {
+    "foundedCompanies": [
+      {
+        "name": "Skin Motion",
+        "founded": 2017,
+        "sold": 2023,
+        "role": "Founder and CEO"
+      },
+      {
+        "name": "Authentic Creative",
+        "founded": 2021,
+        "role": "Founder and CEO"
+      },
+      {
+        "name": "Dreampaths",
+        "role": "Founder & Builder"
+      },
+      {
+        "name": "Context Objects",
+        "role": "Founder and Executive Director"
+      },
+      {
+        "name": "earth.dev",
+        "role": "Founder and Executive Director"
+      }
+    ],
+    "organizationInvolvement": [
+      {
+        "name": "BldgBeyond",
+        "role": "Tech Fellow and Advisor"
+      }
+    ],
+    "notableCollaborators": [],
+    "significantProjects": [
+      {
+        "name": "Soundwave Tattoo",
+        "description": "Invented and patented the Soundwave Tattoo that can be played back"
+      }
+    ],
+    "industriesFocus": [
+      "Early stage",
+      "Founders",
+      "Executives",
+      "Creatives"
+    ]
+  }
+}
+    </pre>
+
+    <h3>Company Context Object Example</h3>
+    <pre>
+{
+    "company": {
+        "business_name": "Doot2Do",
+        "business_purpose": "A kids mindfulness course for grades 1-12",
+        "funding": "$0, bootstrapped",
+        "funding_strategy": "Minimize expenditure utilizing tools and vendors that provide free accounts and no-code",
+        "budget": "$100 per month for services",
+        "mvp_features": [
+            "Video-based lessons with voice overs and illustrations",
+            "6 lessons per grade level (elementary, middle, high school)",
+            "Cross-platform accessibility via website",
+            "User authentication (login system)",
+            "Video playback functionality"
+        ],
+        "mvp_requirements": [
+            "Comply with California legal requirements for educational content for minors",
+            "Support classroom viewing (teacher-led sessions)",
+            "Monetization through school-level licensing ($300/year)"
+        ],
+        "mvp_constraints": [
+            "Limited to $100/month budget for services",
+            "No-code development approach",
+            "Built by a single non-technical founder",
+            "Limited to founder's technical skills (Google Docs and Google Sheets)",
+            "No user data capture in initial version",
+            "Rapid development timeline"
+        ]
+    }
+}
+    </pre>
+
+    <h3>Family Context Object Example</h3>
+    <p>Your family context would likely be private, allowing you to keep track of knowledge about your families preferences, milestones, and priorities.</p>
+    <pre>
+{
+    "family_name": "Smith",
+    "parents": [
+        {
+            "name": "John Smith",
+            "age": 45,
+            "occupation": "Accountant"
+        },
+        {
+            "name": "Emily Smith",
+            "age": 42,
+            "occupation": "Teacher"
+        }
+    ],
+    "children": [
+        {
+            "name": "Olivia Smith",
+            "age": 12,
+            "grade": 7
+        },
+        {
+            "name": "Liam Smith",
+            "age": 8,
+            "grade": 3
+        }
+    ],
+    "location": "New York, NY",
+    "traditions": [
+        "Annual summer vacation to the beach",
+        "Weekly family game nights"
+    ],
+    "goals": [
+        "Save for children's college education",
+        "Volunteer together at local community events"
+    ]
+}
+    </pre>
+
+    <h3>SaaS User Context Object Example</h3>
+    <p><a href="https://dreampaths.net">DreamPaths.net</a> is a dream interpretation app that uses LLMs to provide personalized dream readings for its users. By creating context objects for each user, DreamPaths.net can share relevant user data with other applications or services, enabling seamless integration and enhanced user experiences.</p>
+    <pre>
+{
+  "user": {
+    "id": "user123",
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "joinedAt": "2023-06-01T10:30:00Z",
+    "subscription": {
+      "type": "premium",
+      "startDate": "2023-06-01T10:30:00Z",
+      "endDate": "2024-06-01T10:30:00Z"
+    }
+  },
+  "dreams": [
+    {
+      "id": "dream1",
+      "title": "Flying Dream",
+      "description": "I was flying high in the sky, soaring above the clouds...",
+      "date": "2023-06-02T08:15:00Z",
+      "lucidityScore": 4,
+      "emotionalTone": "excited",
+      "symbols": ["sky", "clouds", "flying"]
+    },
+    {
+      "id": "dream2",
+      "title": "Underwater Adventure",
+      "description": "I found myself swimming deep underwater, exploring a vibrant coral reef...",
+      "date": "2023-06-05T07:45:00Z",
+      "lucidityScore": 3,
+      "emotionalTone": "curious",
+      "symbols": ["water", "fish", "coral"]
+    }
+  ],
+  "dreamReadings": [
+    {
+      "id": "reading1",
+      "dreamId": "dream1",
+      "interpretation": "Flying in dreams often symbolizes a sense of freedom and liberation...",
+      "insightfulness": 4,
+      "generatedAt": "2023-06-02T09:30:00Z"
+    },
+    {
+      "id": "reading2",
+      "dreamId": "dream2",
+      "interpretation": "Underwater dreams can represent exploring your subconscious mind...",
+      "insightfulness": 5,
+      "generatedAt": "2023-06-05T08:20:00Z"
+    }
+  ],
+  "dreamerAnalysis": {
+    "dominantSymbols": ["water", "flying", "adventure"],
+    "recurringThemes": ["exploration", "freedom"],
+    "emotionalPatterns": ["excited", "curious"],
+    "insightfulnessScore": 4.5
+  },
+  "dreamFears": [
+    {
+      "fear": "falling",
+      "intensity": 3
+    },
+    {
+      "fear": "being chased",
+      "intensity": 4
+    }
+  ],
+  "dreamSymbols": [
+    {
+      "symbol": "sky",
+      "frequency": 8,
+      "associations": ["freedom", "aspiration"]
+    },
+    {
+      "symbol": "water",
+      "frequency": 12,
+      "associations": ["emotions", "subconscious"]
+    }
+  ]
+}
+    </pre>
+    <p>By structuring user data in this way, DreamPaths.net can easily share it as a context object with other applications or services. The JSON format allows for a flexible and open data structure that can be easily parsed and understood by various systems, enabling personalized experiences and further analysis.</p>
+
+    <h2>Future Concepts</h2>
+    <div class="future-concepts">
+      <h3>Centralized Context Object Management</h3>
+      <p>In the future, we envision a centralized server that manages your context objects for you. This server would provide a secure and reliable way to store, update, and retrieve your context objects, making it easier to share them across different applications and services.</p>
+
+      <h3>Crawlable Indexable File Format</h3>
+      <p>Alternatively, you could include your context object as a crawlable indexable file on your own website using a particular format, similar to the robots.txt file in the root of the website. This would allow applications and services to easily discover and retrieve your context object without relying on a centralized server.</p>
+
+      <h3>Context Object Sync Tool</h3>
+      <p>To facilitate the integration of context objects stored on a central server with individual websites, we propose the development of a tool that imports your context object from the central server and loads the latest version on your server at runtime. This tool would ensure that your website always has access to the most up-to-date version of your context object.</p>
+
+      <h3>Real-time Context Object Updates</h3>
+      <p>In addition to the sync tool, we also envision a mechanism for sending updates back to the central server to update your context object during sessions. This could be achieved using a special token or key, allowing for real-time synchronization of your context object across different platforms and services.</p>
+    </div>
+
+    <h2>Get Started</h2>
+    <p>To create your own Context Objects and start enjoying more personalized AI interactions, visit our tool at <a href="https://contextobjects.org/create.html">contextobjects.org/create</a>.</p>
+
+    <p>For more information or to contribute to the project, please visit our GitHub repository at <a href="https://github.com/getauthentic/contextobjects">github.com/getauthentic/contextobjects</a>.</p>
+
+    <h2>Managing Your Own Context Objects</h2>
+    <p>In the future ContextObjects.com will offer a centralized managed context object service, we believe that users should have the freedom to manage their own context objects if they prefer. If you choose to manage your context objects independently, you can simply copy and paste your context object at runtime when interacting with AI language models.</p>
+    <p>The centralized managed context object provider is designed for users who prefer the convenience of storing their context objects in the cloud and making them easily accessible across different platforms and services. However, it is not a requirement, and users are free to manage their context objects in the way that best suits their needs.</p>
+
+    <h2>Request for Funding</h2>
+    <p>ContextObjects.org is in the process of setting up contextobjects.com, a managed context object service run by our non-profit organization. To support the development and maintenance of this service, we are seeking funding from individuals and organizations who share our vision of empowering users with control over their data and enabling personalized AI interactions.</p>
+    <p>If you are interested in contributing to the development of the managed context object service, please <a href="https://x.com/natesiggard">reach out to Nate on X</a>. Your support will help us create a robust and user-friendly platform that makes it easy for people to store, manage, and share their context objects securely.</p>
+
+    <footer>
+        <p>This project was created by <a href="https://natesiggard.com">Nate Siggard</a> and is released under the MIT License by <a href="https://getauthentic.com">Authentic Creative, LLC</a>.</p>
+        <p>ContextObjects.org was started as an open-access alternative to Meta's psychographic profiles and OpenAI's long-term memory features. By providing users with the tools to create and control their own Context Objects, we aim to empower individuals and promote transparency in personalized AI interactions.</p>
+        <p>This website is &copy; 2024 ContextObjects.org and can be quoted and reshared with attribution of the domain name or link to this site.</p>
+    </footer>
+  </div>
+</body>
+</html>
